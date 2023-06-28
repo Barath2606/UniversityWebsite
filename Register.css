@@ -1,0 +1,24 @@
+.form input{
+    height:35px;
+    width:300px;
+    margin:10px;
+    border: none;
+    border-style:solid;
+    border-color: #24a3b5;
+    border-width:1px;
+    border-radius:3px;
+}
+
+.form ::placeholder{
+    text-indent:2px;
+    font-size:14px;
+}
+.place{
+  
+    cursor: pointer;
+    color: #24a3b5;
+
+}
+body{
+    background-color: #002147;
+}
