@@ -92,9 +92,9 @@ const validateInputs = () => {
     if(coursevalue === '') {
         setError(course, 'course is required');
     } 
-    else {
-        setSuccess(course);
-    }
+    // else {
+    //     setSuccess(course);
+    // }
 
     if(Passedvalue === '') {
         setError(Passed, 'Mention Passout Year');
