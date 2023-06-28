@@ -89,9 +89,9 @@ const validateInputs = () => {
         setSuccess(email);
     }
 
-    if(coursevalue === '') {
-        setError(course, 'course is required');
-    } 
+    // if(coursevalue === '') {
+    //     setError(course, 'course is required');
+    // } 
     // else {
     //     setSuccess(course);
     // }
