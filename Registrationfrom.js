@@ -89,12 +89,12 @@ const validateInputs = () => {
         setSuccess(email);
     }
 
-    // if(coursevalue === '') {
-    //     setError(course, 'course is required');
-    // } 
-    // else {
-    //     setSuccess(course);
-    // }
+    if(coursevalue === '') {
+        setError(course, 'course is required');
+    } 
+    else {
+        setSuccess(course);
+    }
 
     if(Passedvalue === '') {
         setError(Passed, 'Mention Passout Year');
